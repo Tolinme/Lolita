@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+  background-image: url('https://i.gifer.com/7ICy.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+p{
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	font-size: 5em;
+	animation: filter-blur 2s ease-in-out infinite;
+}
+
+@keyframes filter-blur {
+  0% {
+    filter: blur(2px);
+  }
+  100% {
+    filter: blur(3px);
+  }
+}
+
